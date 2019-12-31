@@ -114,7 +114,7 @@ PrivateInstances = [
     instance_type               = "t2.micro"
     key_name                    = "terraform-demo"
     associate_public_ip_address = false
-    user_data                   = "./user-data/user-data-prv1.sh"
+    user_data                   = "./user-data/user-data-mysql.sh"
 
   }
 ]
